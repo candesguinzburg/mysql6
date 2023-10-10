@@ -13,7 +13,7 @@ const app = express();
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 
-/* app.use(morgan()) */
+/* ap.use(morgan()) */
 app.use(morgan('dev')) 
 /* app.use(morgan('combined')) */
 app.use(express.json())

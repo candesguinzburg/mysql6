@@ -10,7 +10,6 @@ const connection = mysql.createConnection({
     database: process.env.DATABASE
 })
 
-
 connection.connect((err)=> {
     if(err) throw err;
      console.log(`conexion a la base de datos correcta`)

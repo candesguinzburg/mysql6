@@ -9,7 +9,7 @@
         const { nombre, email, password} = req.body;
     
         const errores = validationResult(req);
-    
+
         if (!errores.isEmpty()) {
             return res.send(`<h1> Errores en los datos ingresados</h1>`);
         }

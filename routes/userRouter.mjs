@@ -14,6 +14,5 @@ router.post('/create',
 ],
  userCreate);
 
- 
 
 export default router
